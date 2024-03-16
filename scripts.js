@@ -64,3 +64,10 @@ btnCopiar.addEventListener('click', () => {
   window.getSelection().removeAllRanges();
 
 });
+
+
+
+document.getElementById("texto1").addEventListener("textarea", function(){
+    let texto1 = this.value;
+    this.value = texto1.toLowerCase();
+});
